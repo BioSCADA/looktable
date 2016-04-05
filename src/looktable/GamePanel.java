@@ -404,18 +404,24 @@ public class GamePanel extends javax.swing.JPanel {
         jScrollPane1 = new javax.swing.JScrollPane();
         jpNumberGrid = new javax.swing.JPanel();
         jlLogo = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(63, 63, 70));
 
         jScrollPane1.setBackground(new java.awt.Color(63, 63, 70));
 
-        jpNumberGrid.setBackground(new java.awt.Color(53, 52, 51));
+        jpNumberGrid.setLayout(new java.awt.GridLayout(2, 0));
 
         jlLogo.setBackground(new java.awt.Color(231, 232, 233));
         jlLogo.setFont(new java.awt.Font("Roboto", 0, 24)); // NOI18N
-        jlLogo.setForeground(new java.awt.Color(231, 232, 233));
+        jlLogo.setForeground(new java.awt.Color(0, 128, 255));
+        jlLogo.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
         jlLogo.setText("Clique em Começar para iniciar um novo treino!");
         jpNumberGrid.add(jlLogo);
+
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/resources/logoG1.png"))); // NOI18N
+        jpNumberGrid.add(jLabel1);
 
         jScrollPane1.setViewportView(jpNumberGrid);
 
@@ -431,6 +437,7 @@ public class GamePanel extends javax.swing.JPanel {
         );
     }// </editor-fold>//GEN-END:initComponents
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JScrollPane jScrollPane1;
     private javax.swing.JLabel jlLogo;
     private javax.swing.JPanel jpNumberGrid;

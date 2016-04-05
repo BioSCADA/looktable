@@ -1,0 +1,2 @@
+WrongMove	ElapsedTime	TotalMove	TotalClicked	Distance	InativeCount	ScreenResolution	AppModel	StimulusModel
+0	1811	45	4	1388.0121	13.0	1920.0,1080.0	1914.0,1015.0	1908.0,1009.0
